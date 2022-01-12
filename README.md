@@ -17,7 +17,14 @@ This project aims to solve the routing problem taken into consideration by minim
 Our problem is similar to the Travelling Salesman Problem (TSP) because we want to find the shortest way too, by visiting each trash can only once. Genetic algorithm is suggested to solve the TSP problem. <br/>
 
 ## TSP
-The genetic algorithm finds a solution to the TSP problem. In this project, we use the solution of TSP to solve our problem. We have a list of 52 points (coordinate of waste bins) in the ```Berlin.txt```.
+The genetic algorithm finds a solution to the TSP problem. In this project, we use the solution of TSP to solve our problem. We have a list of 52 points (coordinate of waste bins) in the ```Berlin.txt```. The distance between each point is calculated by the program.<br/>
+*In the genetic algorithm, there are usually 6 stages:*<br/>
+*1.* Creating an initial population.<br/>
+*2.* Calculating the fitness values of each chromosome in population.<br/>
+*3.* Selecting the two best chromosomes by high fitness values.<br/>
+*4.* Crossover to combine the genetic information of two parents (selected best chromosomes).<br/>
+*5.* Mutating to increase variations.<br/>
+*6.* Repeating until the best solution.<br/>
 ## IEEE
 
 We published this project at IEEE.This link is below.<br/>
