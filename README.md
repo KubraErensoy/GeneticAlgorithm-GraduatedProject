@@ -14,4 +14,12 @@ The genetic algorithm is a heuristic search algorithm that mimics the biological
 ## Objective
 
 This project aims to solve the routing problem taken into consideration by minimizing the total distance traveled by garbage trucks of different capacities. The information of garbage level in the garbage container is obtained by sensors inside in garbage containers and the best route, consisting of the locations of the fully-loaded trash cans, is created.<br/>
-Our problem is similar to the Travelling Salesman Problem (TSP) because we want to find the shortest way too, by visiting each trash can only once. Genetic algorithm is suggested to solve the TSP problem. 
+Our problem is similar to the Travelling Salesman Problem (TSP) because we want to find the shortest way too, by visiting each trash can only once. Genetic algorithm is suggested to solve the TSP problem. <br/>
+
+## TSP
+The genetic algorithm finds a solution to the TSP problem. In this project, we use the solution of TSP to solve our problem. We have a list of 52 points (coordinate of waste bins) in the ```Berlin.txt```.
+## IEEE
+
+We published this project at IEEE.This link is below.<br/>
+**IEEE link:** [IEEE](https://ieeexplore.ieee.org/document/9152865)
+
